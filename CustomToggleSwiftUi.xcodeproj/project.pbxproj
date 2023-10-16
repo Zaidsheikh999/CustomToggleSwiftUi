@@ -14,6 +14,7 @@
 		3C902E922ADD66DF0005D052 /* CustomToggleSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C902E912ADD66DF0005D052 /* CustomToggleSwiftUiTests.swift */; };
 		3C902E9C2ADD66DF0005D052 /* CustomToggleSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C902E9B2ADD66DF0005D052 /* CustomToggleSwiftUiUITests.swift */; };
 		3C902E9E2ADD66DF0005D052 /* CustomToggleSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C902E9D2ADD66DF0005D052 /* CustomToggleSwiftUiUITestsLaunchTests.swift */; };
+		3C902EAB2ADD67380005D052 /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C902EAA2ADD67380005D052 /* GenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3C902E972ADD66DF0005D052 /* CustomToggleSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomToggleSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C902E9B2ADD66DF0005D052 /* CustomToggleSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleSwiftUiUITests.swift; sourceTree = "<group>"; };
 		3C902E9D2ADD66DF0005D052 /* CustomToggleSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C902EAA2ADD67380005D052 /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				3C902E802ADD66D80005D052 /* CustomToggleSwiftUiApp.swift */,
 				3C902E822ADD66D80005D052 /* ContentView.swift */,
+				3C902EAA2ADD67380005D052 /* GenderView.swift */,
 				3C902E842ADD66DE0005D052 /* Assets.xcassets */,
 				3C902E862ADD66DE0005D052 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C902EAB2ADD67380005D052 /* GenderView.swift in Sources */,
 				3C902E832ADD66D80005D052 /* ContentView.swift in Sources */,
 				3C902E812ADD66D80005D052 /* CustomToggleSwiftUiApp.swift in Sources */,
 			);
